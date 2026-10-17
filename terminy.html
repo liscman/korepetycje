@@ -1,0 +1,278 @@
+
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1020">
+    <meta
+            name="description"
+            content="Terminy i kontakt — korepetycje z matematyki i programowania we Wrocławiu oraz online."
+    >
+
+    <title>Terminy i kontakt — Korepetycje</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">∑</span>
+            <span>korepetycje<span class="brand-dot">.</span></span>
+        </a>
+
+        <button
+                class="menu-toggle"
+                aria-label="Otwórz menu"
+                aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav">
+            <a href="index.html">Start</a>
+            <a href="o-mnie.html">O mnie</a>
+            <a href="matematyka.html">Matematyka</a>
+            <a href="programowanie.html">Programowanie</a>
+            <a class="nav-cta active" href="terminy.html">
+                Terminy i kontakt <span>↗</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero section-space">
+        <div class="container contact-hero">
+            <span class="eyebrow">Zróbmy pierwszy krok</span>
+
+            <h1>
+                Znajdźmy termin
+                <span class="gradient-text">dla Ciebie.</span>
+            </h1>
+
+            <p class="hero-lead">
+                Pierwsze 60 minut jest bezpłatne. Napisz, czego potrzebujesz,
+                a ustalimy szczegóły spotkania.
+            </p>
+
+            <div class="free-callout">
+                <span class="callout-icon">✦</span>
+
+                <div>
+                    <strong>Pierwsza lekcja — 0 zł</strong>
+                    <p>Pełne 60 minut, bez zobowiązań.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-space section-muted">
+        <div class="container contact-layout">
+            <div class="contact-main">
+                <div class="section-heading compact-heading">
+                    <div>
+                        <span class="eyebrow">Dostępność</span>
+
+                        <h2>
+                            Grafik
+                            <span class="gradient-text">tygodniowy.</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="schedule-notice">
+                    <span class="notice-icon">i</span>
+
+                    <p>
+                        <strong>Zakresy godzinowe</strong>
+                        Zakresy godzin są podane orientacyjnie na podstawie tego
+                        kiedy nie jestem zajęty. Aby ustalić dokładne godziny zajęć prosze
+                        o wiadomość SMS lub email.
+                    </p>
+                </div>
+
+                <div class="schedule-card">
+                    <div class="schedule-head">
+                        <div>
+                            <strong>Dostępność w tym tygodniu</strong>
+                            <small>Poniedziałek – niedziela</small>
+                        </div>
+
+                        <span class="schedule-legend">
+                                <i></i> wolny termin
+                            </span>
+                    </div>
+
+                    <div
+                            class="schedule-grid"
+                            id="schedule-grid"
+                            aria-live="polite"
+                    ></div>
+
+                    <div class="schedule-foot">
+                        Terminy mogą się zmieniać. Ostateczną godzinę
+                        potwierdzimy w wiadomości.
+                    </div>
+                </div>
+
+                <div class="contact-tip">
+                    <span>✦</span>
+
+                    <p>
+                        W wiadomości napisz, czy chodzi o matematykę,
+                        czy programowanie, jaki jest Twój poziom i czy
+                        wolisz zajęcia online, czy stacjonarnie.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-sidebar">
+                <article class="contact-card">
+                    <span class="eyebrow">Kontakt</span>
+
+                    <h3>Porozmawiajmy.</h3>
+
+                    <p>
+                        Uzupełnij dane kontaktowe poniżej przed
+                        opublikowaniem strony.
+                    </p>
+
+                    <div class="contact-method">
+                        <span class="method-icon">✉</span>
+
+                        <div>
+                            <small>E-mail</small>
+                            <strong>liscmanpl@gmail.com</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <span class="method-icon">☎</span>
+
+                        <div>
+                            <small>Telefon</small>
+                            <strong>+48 797 970 363</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-method">
+                        <span class="method-icon">⌖</span>
+
+                        <div>
+                            <small>Miejsce zajęć</small>
+                            <strong>Online lub Wrocław</strong>
+
+                            <small>
+                                Dojazd do 2 km od Placu Grunwaldzkiego
+                            </small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="contact-card mode-card">
+                    <span class="eyebrow">Forma zajęć</span>
+
+                    <h3>Wybierz wygodnie</h3>
+
+                    <div class="mode-item">
+                        <span>◎</span>
+
+                        <div>
+                            <strong>Online</strong>
+
+                            <p>
+                                Spotkanie zdalne i wspólna praca na ekranie.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mode-item">
+                        <span>⌖</span>
+
+                        <div>
+                            <strong>Stacjonarnie</strong>
+
+                            <p>
+                                Dojazd do ucznia do 2 km od Placu
+                                Grunwaldzkiego we Wrocławiu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <a
+                            class="text-link"
+                            href="https://maps.app.goo.gl/i5nWPp34tCzCanfV6"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        Zobacz okolice Placu Grunwaldzkiego
+                        <span>↗</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-space">
+        <div class="container">
+            <div class="cta-panel final-cta">
+                <div>
+                        <span class="eyebrow">
+                            Nie musisz mieć wszystkiego zaplanowanego
+                        </span>
+
+                    <h2>
+                        Wystarczy, że wiesz,
+                        <span class="gradient-text">
+                                z czym masz problem.
+                            </span>
+                    </h2>
+
+                    <p>
+                        Resztę — zakres, formę i plan nauki — ustalimy razem.
+                    </p>
+                </div>
+
+                <a
+                        class="button button-primary"
+                        href="mailto:liscmanpl@gmail.com?subject=Korepetycje%20-%20pierwsza%20lekcja"
+                >
+                    Napisz wiadomość <span>↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-main">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">∑</span>
+            <span>korepetycje<span class="brand-dot">.</span></span>
+        </a>
+
+        <p>
+            Matematyka i programowanie — zrozumiale, krok po kroku.
+        </p>
+
+        <nav>
+            <a href="o-mnie.html">O mnie</a>
+            <a href="matematyka.html">Matematyka</a>
+            <a href="programowanie.html">Programowanie</a>
+            <a href="terminy.html">Kontakt</a>
+        </nav>
+    </div>
+
+    <div class="container footer-bottom">
+        <span>© <span data-year></span> Korepetycje</span>
+        <span>Wrocław · online i stacjonarnie</span>
+    </div>
+</footer>
+</body>
+</html>
